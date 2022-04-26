@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #FEFFFC;
+}
+a{text-decoration: none;}
+h1 {
+    text-align: center;
+}
+h1 span{
+    color: orange;
+}
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    width: 100%;
+    margin: 0 auto;
+    box-shadow: 1px 1px 3px #bbb9b9 ;
+}
+nav .logo{
+    display: flex;
+    align-items: center;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    margin-bottom: 0;
+}
+nav ul li {
+    padding: 10px 15px;
+    margin-left: 15px;
+    border-radius: 0.5rem;
+}
+nav ul li a {
+    color: #555454;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+nav ul li a:hover {
+    color: orange;
+    cursor: pointer;
+}
+.active {
+    color: orange;
+}
+section {
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.card {
+    width: 32%;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+.img {
+    text-align: center;
+}
+.img img{
+    width: 25%;
+}
+.card h2 {
+    font-weight: 300;
+    color: #797878;
+    text-transform: uppercase;
+    text-align: center;
+}
+h2 i{
+    color: #7978788c;
+}
+ol{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+/* ---------- Challenges -------- */
+.card-box{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    border: 1px solid #000;
+    margin-top: 1rem;
+    padding:0 1rem;
+}
+.card-box .content{
+    display: flex;
+    justify-content: space-evenly;
+}
+.content img{
+    margin: 1rem 1rem 0 0;
+}
+.text ol{
+    padding: 0;
+    display: flex;
+    justify-content: start;
+}
+.text ol li{
+    margin-right: 2rem;
+}
+.card-box .button{
+    padding: 3rem 0;
+    color: white;
+}
+.card-box button{
+    padding: 0.5rem 1rem;
+    background-color: #118EB4;
+    border: none;
+    font-size: larger;
+    border-radius: 0.4rem;
+}
+.card-box  button:hover{
+    cursor: pointer;
+    opacity: 90%;
+}
+.card-box button a{
+    color: white;
+}
+/* ------------- score ----------- */
+.score{
+    margin: auto;
+}
+.score h2{
+    color: #000;
+    font-weight: bolder;
+    text-align: center;
+}
+.score strong{
+    margin: 0 9.6rem;
+    font-size: 3rem;
+}
+ /* --------- footer ---------- */
+ footer{
+     width: 100%;
+     background-color: black;
+     color: white;
+     display: flex;
+ }
+footer .card img{
+    border-radius: 10rem;
+    float: right;
+}
+footer ul li{
+    margin-top: 0.5rem;
+    list-style: none;
+}
